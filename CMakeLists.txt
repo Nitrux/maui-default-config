@@ -20,6 +20,6 @@ endif()
 include(FeatureSummary)
 
 install(FILES mauiproject.conf DESTINATION $ENV{HOME}/.config/org.kde.maui/)
-install(FILES cask.conf DESTINATION $ENV{HOME}/.config/maui/)
+install(FILES cask.conf DESTINATION $ENV{HOME}/.config/Maui/)
 
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
